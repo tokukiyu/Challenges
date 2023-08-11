@@ -1,14 +1,4 @@
 from typing import List
-class Solution:
-    def rob(self, nums: List[int]) ->int:
-        n=len(nums)
-        oddprt=nums[1::2]
-        evenprt=nums[0::2]
-        
-        if sum(oddprt)>=sum(evenprt):
-            return sum(oddprt)
-        else:
-            return sum(evenprt)
 
 class Solution:
     def rob(self, nums: List[int]) -> int:
