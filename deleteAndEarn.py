@@ -20,8 +20,7 @@ class Solution:
         for num in range(2, max_num + 1):
             dp[num] = max(dp[num - 1], dp[num - 2] + freq[num] * num)
         
-        # Return the maximum points
-        return dp[max_num]
+        # Return the maximum points        return dp[max_num]
     
 
 # Example usage
