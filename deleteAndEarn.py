@@ -21,7 +21,7 @@ class Solution:
             dp[num] = max(dp[num - 1], dp[num - 2] + freq[num] * num)
         
         # Return the maximum points        return dp[max_num]
-    
+
 
 # Example usage
 nums = [3, 4, 2, 6]
