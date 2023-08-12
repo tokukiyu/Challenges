@@ -22,4 +22,4 @@ class Solution:
         
 nums = [3, 4, 2, 6]
 solution = Solution()
-print(solution.deleteAndEarn(nums))  # Output: 6
+print(solution.deleteAndEarn(nums)) 
