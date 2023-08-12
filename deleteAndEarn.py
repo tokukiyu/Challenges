@@ -22,6 +22,7 @@ class Solution:
         
         # Return the maximum points
         return dp[max_num]
+    
 
 # Example usage
 nums = [3, 4, 2, 6]
