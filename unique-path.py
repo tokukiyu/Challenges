@@ -17,7 +17,7 @@ class Solution:
         # The value at dp[m-1][n-1] will contain the number of unique paths
         return dp[m-1][n-1]
 
-# Example usage
+
 solution = Solution()
 m = 3
 n = 7
