@@ -26,7 +26,7 @@ class Solution:
             for j in range(1, n):
                 if obstacleGrid[i][j] == 0:
                     dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
-        
+        #f
         return dp[m - 1][n - 1]
 
 # Example usage
