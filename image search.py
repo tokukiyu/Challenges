@@ -2,8 +2,7 @@
 import requests
 
 # Replace with your own API key and Search Engine ID
-API_KEY = 'AIzaSyASp4ppfcqDP7qU1f3w0lplea2wN6okqls'
-SEARCH_ENGINE_ID = '87de6d4157d0e4220'
+
 
 # Search query
 search_query = input("Enter search query: ")
