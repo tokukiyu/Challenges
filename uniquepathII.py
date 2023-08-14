@@ -9,7 +9,7 @@ class Solution:
         
         # Initialize a 2D DP array to store the number of paths at each cell
         dp = [[0] * n for _ in range(m)]
-        
+         
         # Initialize the starting cell
         dp[0][0] = 1 if obstacleGrid[0][0] == 0 else 0
         
