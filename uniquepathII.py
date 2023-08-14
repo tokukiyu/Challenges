@@ -37,3 +37,4 @@ obstacleGrid = [
 ]
 solution = Solution()
 print(solution.uniquePathsWithObstacles(obstacleGrid))  # Output should be 2 #try it
+#try it
