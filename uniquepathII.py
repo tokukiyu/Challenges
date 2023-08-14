@@ -36,4 +36,4 @@ obstacleGrid = [
     [0,0,0]
 ]
 solution = Solution()
-print(solution.uniquePathsWithObstacles(obstacleGrid))  # Output should be 2
+print(solution.uniquePathsWithObstacles(obstacleGrid))  # Output should be 2 #try it
