@@ -4,7 +4,6 @@ class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
         if not matrix:
             return 0
-        
         m, n = len(matrix), len(matrix[0])
         dp = [[0] * n for _ in range(m)]
         max_side = 0
