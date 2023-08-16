@@ -1,7 +1,6 @@
 from typing import List
 
-class Solution:
-    
+class Solution: 
     def maximalSquare(self, matrix: List[List[str]]) -> int:
         if not matrix:
             return 0
