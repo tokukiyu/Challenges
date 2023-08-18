@@ -18,3 +18,15 @@ class Solution:
                     break
         
         return dp[n]
+solution = Solution()
+s = "leetcode"
+wordDict = ["leet", "code"]
+print(solution.wordBreak(s, wordDict))  # Output: True
+
+s = "applepenapple"
+wordDict = ["apple", "pen"]
+print(solution.wordBreak(s, wordDict))  # Output: True
+
+s = "catsandog"
+wordDict = ["cats", "dog", "sand", "and", "cat"]
+print(solution.wordBreak(s, wordDict))  # Output: False
