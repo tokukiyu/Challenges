@@ -18,6 +18,7 @@ class Solution:
                     break
         
         return dp[n]
+    
 solution = Solution()
 s = "leetcode"
 wordDict = ["leet", "code"]
