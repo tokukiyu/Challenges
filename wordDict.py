@@ -20,7 +20,7 @@ class Solution:
         return dp[n]
     
 solution = Solution()
-s = "leetcode"
+s = "leetcode" 
 wordDict = ["leet", "code"]
 print(solution.wordBreak(s, wordDict))  # Output: True
 
