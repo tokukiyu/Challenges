@@ -12,7 +12,7 @@ class Solution:
         for i in range(n):
             dp[i][i] = True
         
-        # Check for palindromic substrings of length 2
+        # Check for palindromic substrings of length 2 
         for i in range(n - 1):
             if s[i] == s[i + 1]:
                 dp[i][i + 1] = True
