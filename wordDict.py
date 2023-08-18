@@ -31,3 +31,4 @@ print(solution.wordBreak(s, wordDict))  # Output: True
 s = "catsandog"
 wordDict = ["cats", "dog", "sand", "and", "cat"]
 print(solution.wordBreak(s, wordDict))  # Output: False
+ 
