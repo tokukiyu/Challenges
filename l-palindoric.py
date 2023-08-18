@@ -23,7 +23,7 @@ class Solution:
         for length in range(3, n + 1):
             for i in range(n - length + 1):
                 j = i + length - 1
-                
+                 
                 # A substring is a palindrome if the inner substring is a palindrome
                 if dp[i + 1][j - 1] and s[i] == s[j]:
                     dp[i][j] = True
