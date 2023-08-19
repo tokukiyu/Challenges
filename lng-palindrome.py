@@ -19,6 +19,5 @@ class Solution:
                     dp[i][j] = dp[i+1][j-1] + 2
                 else:
                     dp[i][j] = max(dp[i][j-1], dp[i+1][j])
-        
         # The top-right corner of the DP table contains the longest palindromic subsequence's length
         return dp[0][n-1]
