@@ -21,3 +21,7 @@ class Solution:
                     dp[i][j] = max(dp[i][j-1], dp[i+1][j])
         # The top-right corner of the DP table contains the longest palindromic subsequence's length
         return dp[0][n-1]
+solution = Solution()
+s = "bbbab"
+result = solution.longestPalindromeSubseq(s)
+print(result)  # This will output 4, since the longest palindromic subsequence is "bbbb"
