@@ -17,6 +17,7 @@ class Solution:
                     dp[i][j] = dp[i+1][j+1]
                 else:
                     dp[i][j] = min(ord(s1[i]) + dp[i+1][j], ord(s2[j]) + dp[i][j+1])
+                    
         
         return dp[0][0]  # The answer is stored in the top-left corner of the DP table
 
