@@ -20,6 +20,7 @@ class Solution:
         
         return dp[0][0]  # The answer is stored in the top-left corner of the DP table
  
+ 
 # Example usage
 solution = Solution()
 s1 = "sea"
