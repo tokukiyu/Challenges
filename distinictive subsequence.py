@@ -18,6 +18,7 @@ class Solution:
                     dp[i][j] = dp[i - 1][j]
         
         return dp[m][n]
+
 # Example usage
 solution = Solution()
 s = "rabbbit"
