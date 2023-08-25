@@ -4,7 +4,7 @@ class Solution:
         if not nums:
             return 0
         
-        # Initialize an array to store the length of longest increasing subsequences
+        #  Initialize an array to store the length of longest increasing subsequences
         dp = [1] * len(nums)
         
         for i in range(len(nums)):
