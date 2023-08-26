@@ -13,7 +13,6 @@ class Solution:
                         lengths[i] = lengths[j] + 1
                         counts[i] = counts[j]
         
-        
         max_length = max(lengths)
         result = 0
         for i in range(n):
