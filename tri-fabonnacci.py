@@ -14,4 +14,4 @@ class Solution:
         return dp[n]
 
 sol=Solution()
-print(sol.tribonacci(33))cc
+print(sol.tribonacci(33))
