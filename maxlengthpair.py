@@ -3,7 +3,7 @@ class Solution:
     def findLongestChain(self, pairs: List [List[int]]) -> int:
         pairs.sort(key=lambda x: x[1])  # Sort pairs based on the second element
         
-        dp = [1] * len(pairs)  # Initialize a dynamic programming array
+        dp = [1] * len(pairs)  
         
         for i in range(1, len(pairs)):
             for j in range(i):
