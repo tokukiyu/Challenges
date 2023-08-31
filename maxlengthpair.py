@@ -1,7 +1,7 @@
 from typing import List
 class Solution:
     def findLongestChain(self, pairs: List [List[int]]) -> int:
-        pairs.sort(key=lambda x: x[1])  # Sort pairs based on the second element
+        pairs.sort(key=lambda x: x[1])  
         
         dp = [1] * len(pairs)  
         
