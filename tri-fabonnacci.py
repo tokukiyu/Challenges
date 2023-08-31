@@ -11,7 +11,7 @@ class Solution:
         for i in range(3, n + 1):
             dp[i] = dp[i - 1] + dp[i - 2] + dp[i - 3]
         
-        return dp[n] d
+        return dp[n] 
  
 sol=Solution()
 print(sol.tribonacci(33)) 
