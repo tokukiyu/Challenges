@@ -10,4 +10,4 @@ class Solution:
                 if pairs[j][1] < pairs[i][0]:
                     dp[i] = max(dp[i], dp[j] + 1)
         
-        return max(dp)  # Return the maximum value in the dp array
+        return max(dp) 
