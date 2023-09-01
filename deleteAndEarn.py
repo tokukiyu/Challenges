@@ -6,7 +6,6 @@ class Solution:
         if not nums:
             return 0
          
-         
         # Count the frequency of each number
         freq = collections.Counter(nums)
         
