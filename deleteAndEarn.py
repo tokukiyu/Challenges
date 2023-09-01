@@ -5,7 +5,8 @@ class Solution:
     def deleteAndEarn(self, nums: List[int]) -> int:
         if not nums:
             return 0
-        
+         
+         
         # Count the frequency of each number
         freq = collections.Counter(nums)
         
