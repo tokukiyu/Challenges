@@ -6,7 +6,6 @@ class Solution:
 
         # Create a DP array to store the minimum path sums
         dp = triangle[-1] 
-        
 
         # Traverse the triangle from bottom to top
         for row in range(len(triangle) - 2, -1, -1):
